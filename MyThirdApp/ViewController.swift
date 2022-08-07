@@ -38,10 +38,11 @@ class ViewController: UIViewController {
         secondBlueLabel.text = String(blueSlider.value)
         mainViewSetup()
     }
-    @IBAction func greenSliderAction(_ sender: Any) {
+    @IBAction func greenSliderAction() {
         secondGreenLabel.text = String(greenSlider.value)
         mainViewSetup()
     }
+    
     
     //MARK: для слайдеров функции
     private func redSliderSetup() {
